@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>HTML-практикум</title>
+</head>
+<body>
+    <i>Пожалуйста заполните форму. Обязательные поля помечены *</i>
+    <br />
+    <br />
+      <form action="#" method="post">
+       
+        <fieldset>
+            <legend>Контактная информация</legend>
+               <div>
+                <label for="textField">Имя*</label>
+                <input id="textField" type="text" maxlength="20">
+            </div>
+
+            <div>
+                <label for="telField">Телефон</label>
+                <input id="telField" type="tel">
+            </div>
+
+            <div>
+                <label for="mailField">Email*</label>
+                <input id="mailField" type="Email">
+            </div>
+
+        </fieldset>
+        
+        <fieldset>
+            <legend>Персональная информация</legend>
+               <div>
+                <label for="textField">Возраст*</label>
+                <input id="textField" type="text" maxlength="2">
+            </div>
+
+            <div>
+                <label>Пол</label>
+            <select>
+                <option value="1">Женщина</option>
+                <option value="2">Мужчина</option>
+            </select>
+            </div>
+
+            <div>
+                <label for="textareaField">Перечислите личные качества</label>
+                <textarea id="textareaField"></textarea>
+               
+            </div>
+
+        </fieldset>
+        <fieldset>
+            <legend>Выберите ваших любимых животных</legend>
+               <div>
+                <label><input type="checkbox">Зебра</label>
+                <label><input type="checkbox">Кошак</label>
+                <label><input type="checkbox">Анаконда</label>
+                <label><input type="checkbox">Человек</label>
+                <label><input type="checkbox">Слон</label>
+                <label><input type="checkbox">Антилопа</label>
+                <label><input type="checkbox">Голубь</label>
+                <label><input type="checkbox">Краб</label>              
+               </div>
+        </fieldset>
+        <br />
+        <input type="submit" value="Отправить информацию">     
+       
+     </form>
+
+
+
+</body>
+</html>
